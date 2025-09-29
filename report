@@ -42,3 +42,7 @@ Protocol: ARP
 Info: Who has 192.168.x.1? Tell 192.168.x.x
 
 Explanation: This is an ARP request used by my computer to find the MAC address of the router on the local network.
+
+3. Conclusion
+In this task, I successfully captured live network traffic using Wireshark.The capture included multiple protocols such as TCP, TLS, and ARP. 
+By analyzing packets, I understood how devices communicate:ARP for address resolution, TCP for reliable transport, and TLS for secure web sessions.
