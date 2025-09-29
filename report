@@ -1,0 +1,44 @@
+Task 5 — Wireshark Packet Capture Report
+
+Name: Priya V. B
+
+1. Protocols Observed
+
+From the Wireshark capture, I identified several protocols. For the report, I selected these three:
+
+TCP (Transmission Control Protocol)
+
+TLS (Transport Layer Security)
+
+ARP (Address Resolution Protocol)
+
+2. Example Packets
+🔹 TCP Packet
+
+Source → Destination: 192.168.x.x → 142.250.x.x (Google server)
+
+Protocol: TCP
+
+Info: SYN packet used to start a TCP three-way handshake.
+
+Explanation: This shows how a reliable connection is established between my device and a web server before sending data.
+
+🔹 TLS Packet
+
+Source → Destination: 192.168.x.x → 142.250.x.x
+
+Protocol: TLS
+
+Info: Client Hello message to start encryption handshake.
+
+Explanation: This is part of HTTPS traffic. It shows the beginning of a secure session where encryption keys are exchanged.
+
+🔹 ARP Packet
+
+Source → Destination: Broadcast → ff:ff:ff:ff:ff:ff
+
+Protocol: ARP
+
+Info: Who has 192.168.x.1? Tell 192.168.x.x
+
+Explanation: This is an ARP request used by my computer to find the MAC address of the router on the local network.
